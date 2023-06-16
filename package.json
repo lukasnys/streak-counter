@@ -26,8 +26,8 @@
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
   "scripts": {
-    "build": "yarn microbundle",
-    "build:watch": "yarn microbundle watch",
+    "build": "microbundle",
+    "build:watch": "microbundle watch",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   }
 }
